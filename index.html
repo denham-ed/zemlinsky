@@ -7,6 +7,8 @@
         <meta name="author" content="" />
         <title>Coda Planner</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/32eb0f11a8.js" crossorigin="anonymous"></script>
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Google fonts-->
@@ -29,12 +31,12 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                         <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Features</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Download</a></li>
+    
                     </ul>
                     <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
                         <span class="d-flex align-items-center">
                             <i class="bi-chat-text-fill me-2"></i>
-                            <span class="small">Send Feedback</span>
+                            <span class="small">Find Out More</span>
                         </span>
                     </button>
                 </div>
@@ -47,8 +49,8 @@
                     <div class="col-lg-6">
                         <!-- Mashead text and app badges-->
                         <div class="mb-5 mb-lg-0 text-center text-lg-start">
-                            <h1 class="display-1 lh-1 mb-3">A lightweight orchestral management solution.</h1>
-                            <p class="lead fw-normal text-muted mb-5">Streamline your orchestra's workflow with Coda Planner.</p>
+                            <h1 class="display-1 lh-1 mb-3">Streamline your orchestra's workflow with Coda Planner.</h1>
+                            <p class="lead fw-normal text-muted mb-5">A lightweight but dynamic orchestral manament solution.</p>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -68,7 +70,6 @@
                 <div class="row gx-5 justify-content-center">
                     <div class="col-xl-8">
                         <div class="h2 fs-1 text-white mb-4">Always up-to-date. Always accurate. Always accessible.</div>
-                        <img src="assets/img/tnw-logo.svg" alt="..." style="height: 3rem" />
                     </div>
                 </div>
             </div>
@@ -83,16 +84,16 @@
                                 <div class="col-md-6 mb-5">
                                     <!-- Feature item-->
                                     <div class="text-center">
-                                        <i class="bi-phone icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Device Mockups</h3>
-                                        <p class="text-muted mb-0">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                                        <i class="bi bi-calendar-check icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">Comprehensive Calendar</h3>
+                                        <p class="text-muted mb-0">Update once, share instantly. View all sessions, filter by series </p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 mb-5">
                                     <!-- Feature item-->
                                     <div class="text-center">
-                                        <i class="bi-camera icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Flexible Use</h3>
+                                        <i class="bi bi-file-text icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">Draft Schedules & Contracts</h3>
                                         <p class="text-muted mb-0">Put an image, video, animation, or anything else in the screen!</p>
                                     </div>
                                 </div>
@@ -101,17 +102,17 @@
                                 <div class="col-md-6 mb-5 mb-md-0">
                                     <!-- Feature item-->
                                     <div class="text-center">
-                                        <i class="bi-gift icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Free to Use</h3>
+                                        <i class="bi bi-clock-history icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">View Performance Histories</h3>
                                         <p class="text-muted mb-0">As always, this theme is free to download and use for any purpose!</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <!-- Feature item-->
                                     <div class="text-center">
-                                        <i class="bi-patch-check icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Open Source</h3>
-                                        <p class="text-muted mb-0">Since this theme is MIT licensed, you can use it commercially!</p>
+                                        <i class="bi bi-cloud icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">Secure Cloud Storage</h3>
+                                        <p class="text-muted mb-0">Access your information from anywhere, any time. No installation required.</p>
                                     </div>
                                 </div>
                             </div>
@@ -121,7 +122,7 @@
                         <!-- Features section device mockup-->
                         <div class="features-device-mockup">
                             <div class="d-flex justify-content-center">
-                            <img class='img-fluid' src="./img/screenshot_1.png" alt="Mock-up of Calendar View" >
+                            <img class='img-fluid' src="./img/project-view.png" alt="Mock-up of Project View" >
                         </div>
                     </div>
                     </div>
@@ -133,8 +134,12 @@
             <div class="container px-5">
                 <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
                     <div class="col-12 col-lg-5">
-                        <h2 class="display-4 lh-1 mb-4">Enter a new age of web design</h2>
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">This section is perfect for featuring some information about your application, why it was built, the problem it solves, or anything else! There's plenty of space for text here, so don't worry about writing too much.</p>
+                        <h2 class="display-4 lh-1 mb-4">Flexible, intuitive, affordable.</h2>
+                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">Running an orchestra, you have a lot to manage: projects, artists, repertoire, venues, schedules, tour itineraries, contracts, and more. It can be overwhelming to keep track of everything, especially when you're using multiple spreadsheets and documents that are hard to share and update. And all too often, valuable time is spent on administrative tasks rather than on the things that really matter: planning, strategic thinking, and building relationships with staff and players. </p>
+
+                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">
+                            That's where <strong>Coda Planner</strong> comes in. With prices starting at £295+VAT 
+                        </p>
                     </div>
                     <div class="col-sm-8 col-md-6">
                         <div class="px-5 px-sm-0"><img class="img-fluid rounded-circle" src="https://source.unsplash.com/u8Jn2rzYIps/900x900" alt="..." /></div>
